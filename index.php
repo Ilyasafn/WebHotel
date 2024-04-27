@@ -49,6 +49,7 @@
                                 <li><a class="dropdown-item" href="?page=meeting">Meetings</a></li>
                                 <li><a class="dropdown-item" href="?page=wedding">Weddings</a></li>
                                 <li><a class="dropdown-item" href="?page=event">Social Event</a></li>
+                                <li><a class="dropdown-item" href="?page=booking">Booking Room</a></li>
                                 <li><a class="dropdown-item" href="?page=book">My Booking</a></li>
                             </ul>
                         </li>
@@ -68,8 +69,6 @@
         </nav>
         <!-- NAVBAR END -->
 
-        
-
         <!-- CONTENT HERE -->
         <?php 
         $page = $_GET['page'];
@@ -80,6 +79,10 @@
 
             case 'room';
                 include 'pages/room.php';
+                break;
+
+            case 'booking';
+                include 'pages/booking.php';
                 break;
 
             case 'book';
