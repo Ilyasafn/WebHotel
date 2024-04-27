@@ -35,24 +35,15 @@
     
     
       <section class="tm-roomsection">
-                    <div class="tm-room1">
-                        <div class="tm-trans"> <div><p>2 Bed</p><p>Complimentary liquor</p><p>Free Wifi</p> </div>
-                        
-                        <div><p>Only for</p><p class="bold">$ 1999.99</p> </div></div>
-                        
-                        
-                        <img class="tm-roomimage" src="images/luxury.png">
-                     <p class="s">Luxury Suite</p>
-
-                    </div>
+                
                         <div class="tm-room1">
                             <div class="tm-trans"> <div><p>2 Bed</p><p>Luxorious interior</p><p>Free Wifi</p> </div>
                         
                         <div><p>Only for</p><p class="bold">$ 1599.99</p> </div></div>
                     
                             
-                        <img class="tm-roomimage" src="images/delux.png">
-                            <p>Delux Suite</p>
+                        <img class="tm-roomimage" src="assets/img/roomimg/extrasuperdeluxeluxuriousnyirororoom.jpg">
+                            <p>Extra Super Deluxe Luxorious Nyi Roro Room</p>
 
                     </div>
                         <div class="tm-room1">
@@ -62,8 +53,8 @@
                         <div><p>Only for</p><p class="bold">$ 1299.99</p> </div></div>
                         
                             
-                        <img class="tm-roomimage" src="images/premier.png">
-                             <p>Premier Suite</p>
+                        <img class="tm-roomimage" src="assets/img/roomimg/luxurious.jpeg">
+                             <p>Luxurious</p>
 
                     </div>
     </section>
@@ -76,8 +67,8 @@
                         <div><p>Only for</p><p class="bold">$ 999.99</p> </div></div>
                         
                         
-                        <img class="tm-roomimage" src="images/luxuryroom.png">
-                     <p class="s">Luxury Room</p>
+                        <img class="tm-roomimage" src="assets/img/roomimg/grand_deluxe.jpeg">
+                     <p class="s">Grand Deluxe Room</p>
 
                     </div>
                         <div class="tm-room1">
@@ -87,8 +78,8 @@
                         <div><p>Only for</p><p class="bold">$ 599.99</p> </div></div>
                         
                             
-                        <img class="tm-roomimage" src="images/deluxroom.png">
-                            <p>Delux Room</p>
+                        <img class="tm-roomimage" src="assets/img/roomimg/deluxe.jpeg">
+                            <p>Deluxe Room</p>
 
                     </div>
                         <div class="tm-room1">
