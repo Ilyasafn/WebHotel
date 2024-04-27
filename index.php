@@ -68,7 +68,7 @@
 
         <!-- CONTENT HERE -->
         <?php 
-        $page = $_GET['page'];
+        $page = isset($_GET['page'])?$_GET['page']:null;
         switch ($page) {
             case 'home';
                 include 'pages/home.php';
@@ -119,7 +119,6 @@
                 break;
         }
 
-        error_reporting(-1);
 
         ?>
         <!-- CONTENT END -->
