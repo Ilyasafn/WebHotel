@@ -42,3 +42,7 @@ hr {
   height: 5px;
   width: 100%;
 }
+
+#sidebar {
+  backroung-color: black;
+}

@@ -13,7 +13,7 @@
   <body>
     <header>
         <div class="ctr">
-            <img src="assets/leaf.png" alt="LeafIn" width="100" height="80">
+            <img src="assets/img/leaf.png" alt="LeafIn" width="100" height="80">
             <div class="badge text" style="width: 6rem;">
                 <h5>LeafIn Hotel</h5>
                 <p>Jl. Mayor TNI A.D Imat Saili No.21 Sungai Ampal Kel, Sumber Rejo, Balikpapan Tengah, Kota Balikpapan, Kalimantan Timur 76114</p>
@@ -49,6 +49,7 @@
                                 <li><a class="dropdown-item" href="?page=meeting">Meetings</a></li>
                                 <li><a class="dropdown-item" href="?page=wedding">Weddings</a></li>
                                 <li><a class="dropdown-item" href="?page=event">Social Event</a></li>
+                                <li><a class="dropdown-item" href="?page=booking">Booking Room</a></li>
                                 <li><a class="dropdown-item" href="?page=book">My Booking</a></li>
                             </ul>
                         </li>
@@ -68,8 +69,6 @@
         </nav>
         <!-- NAVBAR END -->
 
-        
-
         <!-- CONTENT HERE -->
         <?php 
         $page = $_GET['page'];
@@ -80,6 +79,10 @@
 
             case 'room';
                 include 'pages/room.php';
+                break;
+
+            case 'booking';
+                include 'pages/booking.php';
                 break;
 
             case 'book';
