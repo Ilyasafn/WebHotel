@@ -20,9 +20,9 @@
        <div>
             <ul>
                 <li class="tm-list"><a href="index.php">Home</a></li>
-                <li class="tm-list"><a href="room.php">Rooms</a></li>
-                <li class="tm-list"><a href="booking.php">Booking</a></li>
-                <li><a href="about.php">Contact</a></li>
+                <li class="tm-list"><a href="pages/room.php">Rooms</a></li>
+                <li class="tm-list"><a href="pages/booking.php">Booking</a></li>
+                <li><a href="pages/about.php">Contact</a></li>
             </ul>    
             </div>
         </nav>
@@ -110,8 +110,7 @@
      <section class="tm-makeres">
     <div class="tm-res">
        <div class="tm-resbutton">
-           <!-- <p> <a href="book.php">Make Reservation</a></p> -->
-        <button type="button" onclick="location.href='pages/booking.php'">Make Reservation</button>
+           <p> <a href="pages/booking.php">Make Reservation</a></p>
         </div>
         </div>
     </section>
