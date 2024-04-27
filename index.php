@@ -41,11 +41,32 @@
                         <li class="nav-item">
                             <a class="nav-link" href="">Photo Album</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="?page=book">My Booking</a>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="?page=book">Booking</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="?page=about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Booking
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Meetings</a></li>
+                                <li><a class="dropdown-item" href="#">Weddings</a></li>
+                                <li><a class="dropdown-item" href="#">Social Event</a></li>
+                                <li><a class="dropdown-item" href="?page=book">My Booking</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="?page=about">About Us</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="?page=about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Our Facilities</a></li>
+                                <li><a class="dropdown-item" href="#">Our Menu</a></li>
+                                <li><a class="dropdown-item" href="?page=about">About</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -55,7 +76,7 @@
 
         <!-- BOOK MENU -->
             <div class="card text-center mt-3 mb-5">
-                <div class="card-body">
+                <div class="card-body ">
                     <h5 class="card-title">BOOK LEAFIN BALIKPAPAN HOTEL</h5>
                     <form action="#">
                         <div class="row">
@@ -111,6 +132,7 @@
                     
             </div>
         <!-- BOOK MENU END -->
+
         <!-- CONTENT HERE -->
         <?php 
         $page = $_GET['page'];
