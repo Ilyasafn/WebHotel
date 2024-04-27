@@ -110,7 +110,7 @@
      <section class="tm-makeres">
     <div class="tm-res">
        <div class="tm-resbutton">
-           <a href="bb.html"> <p>Make Reservation</p></a>
+           <a href="book.php"> <p>Make Reservation</p></a>
         </div>
         </div>
     </section>
