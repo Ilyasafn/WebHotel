@@ -22,10 +22,6 @@
             </div>
         </div>
     </header>
-
-
-
-
     
     <div class="container">
     <!-- NAVBAR -->
@@ -93,7 +89,7 @@
             case 'album';
                 include 'pages/album.php';
                 break;
-                
+
             case 'about';
                 include 'pages/about.php';
                 break;
