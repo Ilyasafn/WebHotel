@@ -1,6 +1,10 @@
 html,
 body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #ddd;
+  min-height: 100000px;
 }
 
 * {
@@ -36,4 +40,10 @@ nav {
 
 .ctr h5 {
   display: inline-block;
+}
+
+hr {
+  color: black;
+  height: 5px;
+  width: 100%;
 }
