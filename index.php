@@ -39,7 +39,7 @@
                             <a class="nav-link" href="?page=room">Rooms</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Photo Album</a>
+                            <a class="nav-link" href="?page=album">Photo Album</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="?page=about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -86,6 +86,9 @@
                 include 'pages/book.php';
                 break;
 
+            case 'album';
+                include 'pages/album.php';
+                break;
             case 'about';
                 include 'pages/about.php';
                 break;
@@ -120,6 +123,10 @@
         ?>
         <!-- CONTENT END -->
     </div>
+
+    <footer class="ctr">
+        <p class="text-center">2024 copyright reserved.</p>
+    </footer>
     
     
     
