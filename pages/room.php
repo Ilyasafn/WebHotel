@@ -3,14 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title> LeafIn Hotel</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="assets/img/leaf.png" rel="shortcut icon" >
-    
-     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="dist/jquery.scrollUp.js"></script>
- <script type="text/javascript" src="dist/demo.js"></script>
-    
+    <link rel="stylesheet" href="/styles/style.css">
     </head>
     
 <body>
@@ -37,20 +31,20 @@
       <section class="tm-roomsection">
                 
                         <div class="tm-room1">
-                            <div class="tm-trans"> <div><p>2 Bed</p><p>Luxorious interior</p><p>Free Wifi</p> </div>
+                            <div class="tm-trans"> <div><p>Nyi Roro Personal Bed</p><p>Luxorious interior</p><p>Free Wifi</p> </div>
                         
-                        <div><p>Only for</p><p class="bold">$ 1599.99</p> </div></div>
+                        <div><p>Only for</p><p class="bold">$ 4999.99</p> </div></div>
                     
                             
                         <img class="tm-roomimage" src="assets/img/roomimg/extrasuperdeluxeluxuriousnyirororoom.jpg">
-                            <p>Extra Super Deluxe Luxorious Nyi Roro Room</p>
+                            <a href="?page=booking"><p class="nyiroro">Extra Super Deluxe Luxorious Nyi Roro Room</p></a>
 
                     </div>
                         <div class="tm-room1">
                             
-                            <div class="tm-trans"> <div><p>2 Bed</p><p>Scenic View</p><p>Free Wifi</p> </div>
+                            <div class="tm-trans"> <div><p>King Size Silk Bed</p><p>Scenic View</p><p>Free Wifi</p> </div>
                         
-                        <div><p>Only for</p><p class="bold">$ 1299.99</p> </div></div>
+                        <div><p>Only for</p><p class="bold">$ 799.99</p> </div></div>
                         
                             
                         <img class="tm-roomimage" src="assets/img/roomimg/luxurious.jpeg">
@@ -62,9 +56,9 @@
      <section class="tm-roomsection">
                     <div class="tm-room1">
                         
-                        <div class="tm-trans"> <div><p>2 Bed</p><p>Free wifi</p><p>Fresh towels</p> </div>
+                        <div class="tm-trans"> <div><p>Queen Size Bed</p><p>Free wifi</p><p>Fresh towels</p> </div>
                         
-                        <div><p>Only for</p><p class="bold">$ 999.99</p> </div></div>
+                        <div><p>Only for</p><p class="bold">$ 449.99</p> </div></div>
                         
                         
                         <img class="tm-roomimage" src="assets/img/roomimg/grand_deluxe.jpeg">
@@ -73,9 +67,9 @@
                     </div>
                         <div class="tm-room1">
                             
-                            <div class="tm-trans"> <div><p>2 Bed</p><p>Fresh towels</p><p>Less costly</p> </div>
+                            <div class="tm-trans"> <div><p>Double Bed</p><p>Fresh towels</p><p>Less costly</p> </div>
                         
-                        <div><p>Only for</p><p class="bold">$ 599.99</p> </div></div>
+                        <div><p>Only for</p><p class="bold">$ 199.99</p> </div></div>
                         
                             
                         <img class="tm-roomimage" src="assets/img/roomimg/deluxe.jpeg">
@@ -86,7 +80,7 @@
                             
                             <div class="tm-trans"> <div><p>1 Bed</p><p>Fresh towels</p><p>Less costly</p> </div>
                         
-                        <div><p>Only for</p><p class="bold">$ 399.99</p> </div></div>
+                        <div><p>Only for</p><p class="bold">$ 79.99</p> </div></div>
                         
                             
                         <img class="tm-roomimage" src="assets/img/roomimg/standart.jpeg">
