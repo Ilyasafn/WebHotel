@@ -83,7 +83,7 @@
                 break;
 
             case 'book';
-                include 'pages/book.php';
+                include 'pages/your_book.php';
                 break;
 
             case 'album';
