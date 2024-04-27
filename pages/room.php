@@ -21,8 +21,8 @@
             <ul>
                 <li class="tm-list"><a href="?page=home">Home</a></li>
                 <li class="tm-list"><a href="?page=room">Rooms</a></li>
-                <li class="tm-list"><a href="?page=book">Booking</a></li>
-                <li><a href="pages/about.php">Contact</a></li>
+                <li class="tm-list"><a href="?page=booking">Booking</a></li>
+                <li><a href="?page=about">Contact</a></li>
             </ul>    
             </div>
         </nav>
