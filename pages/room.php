@@ -111,7 +111,7 @@
     <div class="tm-res">
        <div class="tm-resbutton">
            <!-- <p> <a href="book.php">Make Reservation</a></p> -->
-        <button type="button" onclick="location.href='booking.php'">Make Reservation</button>
+        <button type="button" onclick="location.href='pages/booking.php'">Make Reservation</button>
         </div>
         </div>
     </section>
