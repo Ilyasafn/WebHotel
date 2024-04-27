@@ -1,0 +1,39 @@
+html,
+body {
+  background-color: #ddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #eee;
+  box-shadow: 1px 8px 10px 3px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 1px 8px 10px 3px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 1px 8px 10px 3px rgba(0, 0, 0, 0.43);
+}
+
+nav {
+  background-color: #333;
+  color: white;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.ctr {
+  width: 100%;
+  height: 100px;
+  background-color: lightskyblue;
+}
+
+.ctr img {
+  margin-top: -50px;
+}
+
+.ctr h5 {
+  display: inline-block;
+}
