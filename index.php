@@ -30,19 +30,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="?page=home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Rooms</a>
+                            <a class="nav-link" href="?page=room">Rooms</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Photo Album</a>
+                            <a class="nav-link" href="">Photo Album</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">My Booking</a>
+                            <a class="nav-link" href="?page=book">My Booking</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="?page=about">About Us</a>
                         </li>
                     </ul>
                 </div>
@@ -108,7 +108,32 @@
             </div>
         </div>
         <!-- BOOK MENU END -->
-        <h2>Content here</h2>
+    <?php 
+    $page = $_GET['page'];
+    switch ($page) {
+        case 'home';
+            include 'pages/home.php';
+            break;
+
+        case 'room';
+            include 'pages/room.php';
+            break;
+
+        case 'book';
+            include 'pages/book.php';
+            break;
+
+        case 'about';
+            include 'pages/about.php';
+            break;
+
+        default:
+            include 'pages/home.php';
+            break;
+    }
+
+    
+    ?>
     </div>
     
     
