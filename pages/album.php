@@ -1,0 +1,1 @@
+<h1>Ini halaman page Album</h1>
