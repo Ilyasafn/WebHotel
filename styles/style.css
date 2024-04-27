@@ -1,10 +1,10 @@
 html,
 body {
   font-family: "Kanit", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   background-color: #ddd;
-  min-height: 100000px;
+  min-height: 1000px;
 }
 
 * {
@@ -19,10 +19,6 @@ body {
   -moz-box-shadow: 1px 8px 10px 3px rgba(0, 0, 0, 0.43);
 }
 
-nav {
-  background-color: #333;
-  color: white;
-}
 
 .container-fluid {
   width: 100%;
@@ -43,7 +39,7 @@ nav {
 }
 
 hr {
-  color: black;
+  color: brown;
   height: 5px;
   width: 100%;
 }
