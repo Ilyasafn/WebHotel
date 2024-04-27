@@ -129,7 +129,7 @@
     </div>
 
     <footer class="ctr">
-        <p class="text-center">2024 copyright reserved.</p>
+        <p class="text-center">©2024 copyright reserved.</p>
     </footer>
     
     
