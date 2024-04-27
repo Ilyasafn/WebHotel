@@ -28,7 +28,7 @@
     
     <div class="container">
     <!-- NAVBAR -->
-        <nav class="navbar sticky-top navbar-expand-lg bg-primary">
+        <nav class="navbar sticky-top navbar-expand-lg " style="background-color: aquamarine;">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -41,30 +41,24 @@
                         <li class="nav-item">
                             <a class="nav-link" href="">Photo Album</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="?page=book">Booking</a>
-                        </li> -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="?page=about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Booking
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Meetings</a></li>
-                                <li><a class="dropdown-item" href="#">Weddings</a></li>
-                                <li><a class="dropdown-item" href="#">Social Event</a></li>
+                                <li><a class="dropdown-item" href="?page=meeting">Meetings</a></li>
+                                <li><a class="dropdown-item" href="?page=wedding">Weddings</a></li>
+                                <li><a class="dropdown-item" href="?page=event">Social Event</a></li>
                                 <li><a class="dropdown-item" href="?page=book">My Booking</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="?page=about">About Us</a>
-                        </li> -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="?page=about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 About Us
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Our Facilities</a></li>
-                                <li><a class="dropdown-item" href="#">Our Menu</a></li>
+                                <li><a class="dropdown-item" href="?page=facilities">Our Facilities</a></li>
+                                <li><a class="dropdown-item" href="?page=menu">Our Menu</a></li>
                                 <li><a class="dropdown-item" href="?page=about">About</a></li>
                             </ul>
                         </li>
@@ -74,64 +68,7 @@
         </nav>
         <!-- NAVBAR END -->
 
-        <!-- BOOK MENU -->
-            <div class="card text-center mt-3 mb-5">
-                <div class="card-body ">
-                    <h5 class="card-title">BOOK LEAFIN BALIKPAPAN HOTEL</h5>
-                    <form action="#">
-                        <div class="row">
-                            <div class="col mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name">
-                            </div>
-                            <div class="col mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email">
-                            </div>
-                            <div class="col mb-3">
-                                <label for="phone" class="form-label">Phone</label>
-                                <input type="text" class="form-control" id="phone">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <select class="col form-select mb-3 " aria-label="Default select example">
-                                        <option selected>Rooms</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                            </select>
-                            <select class="col form-select mb-3 " aria-label="Default select example">
-                                        <option selected>Adults</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                            </select>
-                            <select class="col form-select mb-3 " aria-label="Default select example">
-                                        <option selected>Children</option>
-                                        <option value="0">0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                            </select>
-                        </div>
-                            <div class=" mb-3">
-                                <label for="checkin" class="form-label">Check In</label>
-                                <input type="date" class="form-control" id="checkin">
-                            </div>
-                            <div class=" mb-3">
-                                <label for="checkin" class="form-label">Check Out</label>
-                                <input type="date" class="form-control" id="checkout">
-                            </div>
-                            <a href="#" >
-                                <button onclick="myBook()" class="btn btn-primary">BOOK!</button>
-                            </a>
-                    </form>
-                </div>
-                    
-            </div>
-        <!-- BOOK MENU END -->
+        
 
         <!-- CONTENT HERE -->
         <?php 
@@ -153,12 +90,33 @@
                 include 'pages/about.php';
                 break;
 
+            case 'meeting';
+                include 'pages/meeting.php';
+                break;
+
+            case 'wedding';
+                include 'pages/wedding.php';
+                break;
+
+            case 'event';
+                include 'pages/event.php';
+                break;
+
+            case 'menu';
+                include 'pages/menu.php';
+                break;
+
+            case 'facilities';
+                include 'pages/facilities.php';
+                break;
+
             default:
                 include 'pages/home.php';
                 break;
         }
 
-        
+        error_reporting(-1);
+
         ?>
         <!-- CONTENT END -->
     </div>

@@ -1,3 +1,61 @@
+   <!-- BOOK MENU -->
+   <div class="card text-center mt-3 mb-5">
+                <div class="card-body ">
+                    <h5 class="card-title">BOOK LEAFIN BALIKPAPAN HOTEL</h5>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="col mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="col mb-3">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="text" class="form-control" id="phone">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <select class="col form-select mb-3 " aria-label="Default select example">
+                                        <option selected>Rooms</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                            </select>
+                            <select class="col form-select mb-3 " aria-label="Default select example">
+                                        <option selected>Adults</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                            </select>
+                            <select class="col form-select mb-3 " aria-label="Default select example">
+                                        <option selected>Children</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                            </select>
+                        </div>
+                            <div class=" mb-3">
+                                <label for="checkin" class="form-label">Check In</label>
+                                <input type="date" class="form-control" id="checkin">
+                            </div>
+                            <div class=" mb-3">
+                                <label for="checkin" class="form-label">Check Out</label>
+                                <input type="date" class="form-control" id="checkout">
+                            </div>
+                            <a href="#" >
+                                <button onclick="myBook()" class="btn btn-primary">BOOK!</button>
+                            </a>
+                    </form>
+                </div>
+                    
+            </div>
+        <!-- BOOK MENU END -->
    <section class="row">
         <div class="col-8">
 

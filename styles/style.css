@@ -1,10 +1,11 @@
 html,
 body {
+  background-image: url(../assets/pattern/more-leaves.png);
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   font-style: normal;
   background-color: #ddd;
-  min-height: 1000px;
+  min-height: 10000px;
 }
 
 * {
@@ -19,7 +20,6 @@ body {
   -moz-box-shadow: 1px 8px 10px 3px rgba(0, 0, 0, 0.43);
 }
 
-
 .container-fluid {
   width: 100%;
 }
@@ -27,7 +27,7 @@ body {
 .ctr {
   width: 100%;
   height: 100px;
-  background-color: lightskyblue;
+  background-color: #bcb88a;
 }
 
 .ctr img {
