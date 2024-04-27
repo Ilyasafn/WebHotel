@@ -2,9 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title> Magestic Hotel</title>
+    <title> LeafIn Hotel</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="assets/img/leaf.png" rel="shortcut icon" >
     
      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="dist/jquery.scrollUp.js"></script>
@@ -20,7 +21,7 @@
             <ul>
                 <li class="tm-list"><a href="index.php">Home</a></li>
                 <li class="tm-list"><a href="room.php">Rooms</a></li>
-                <li class="tm-list"><a href="book.php">Booking</a></li>
+                <li class="tm-list"><a href="booking.php">Booking</a></li>
                 <li><a href="about.php">Contact</a></li>
             </ul>    
             </div>
@@ -110,7 +111,7 @@
     <div class="tm-res">
        <div class="tm-resbutton">
            <!-- <p> <a href="book.php">Make Reservation</a></p> -->
-        <button type="button" onclick="location.href='book.php'">Make Reservation</button>
+        <button type="button" onclick="location.href='booking.php'">Make Reservation</button>
         </div>
         </div>
     </section>
