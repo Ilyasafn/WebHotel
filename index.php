@@ -13,7 +13,7 @@
   <body>
     <header>
         <div class="ctr">
-            <img src="assets/leaf.png" alt="LeafIn" width="100" height="80">
+            <img src="assets/img/leaf.png" alt="LeafIn" width="100" height="80">
             <div class="badge text" style="width: 6rem;">
                 <h5>LeafIn Hotel</h5>
                 <p>Jl. Mayor TNI A.D Imat Saili No.21 Sungai Ampal Kel, Sumber Rejo, Balikpapan Tengah, Kota Balikpapan, Kalimantan Timur 76114</p>

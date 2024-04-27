@@ -1,1 +1,1 @@
-<h1>Halaman rooms</h1>
+<h1>Halaman ROom</h1>
