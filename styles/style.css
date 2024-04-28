@@ -11,6 +11,11 @@ body {
   padding: 0;
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
 .container {
   background-color: #eee;
   box-shadow: 1px 8px 10px 3px rgba(0, 0, 0, 0.43);

@@ -7,7 +7,7 @@
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan email anda">
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">No. Hp</label>
+  <label for="exampleFormControlInput1" class="form-label">No. Handphone</label>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="08...">
 </div>
 <div class="mb-3">
