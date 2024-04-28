@@ -114,6 +114,7 @@
             <!-- LIST FASILITAS END -->
             <!-- FASILITAS HOTEL END -->
             <hr>
+
             <!-- CARA BOOKING -->
             <h3>How To Book LeafIn Hotel Balikpapan</h3>
             <p>Making reservations for LeafIn Hotel Balikpapan on this website is a secure and straightforward process. To check the nightly rates of LeafIn Hotel Balikpapan, simply begin by selecting the desired dates/length of stay and click the "Check Rates" button. Comparison and decisions can then be made with the display of pricing information for each style of guest room. Information regarding room features and amenities is provided in the center of the screen. Having made the decision for dates, room style, and rates, simply locate and click on the "Book Now" button on the right hand side of the screen.</p>
@@ -122,6 +123,7 @@
             
         </div>
 
+        <!-- SIDEBAR -->
         <div class="col">
             <!-- GUEST REVIEW -->
             <div class="card text-center mb-5">
@@ -132,7 +134,7 @@
                     Guest Reviews
                 </div>
                 <div class="card-body">
-                    <a href="?page=review">p</a>
+                    <a class="link-info link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="?page=review">Jadilah yang pertama dalam berkomentar</a>
                 </div>
             </div>
             <!-- GUEST REVIEW END -->
@@ -154,9 +156,12 @@
                     <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
                     <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z"/>
                     </svg>
-                     <span class="fs-5 m-1">Hotels near LeafIn Hotel Balikpapan</span>
+                    <span class="fs-5 m-1">Hotels near LeafIn Hotel Balikpapan</span>
+                    
                 </div>
             </div>
         </div>
             <!-- AREA INFORMATION END -->
+        <!-- SIDEBAR END -->
+
     </section>
