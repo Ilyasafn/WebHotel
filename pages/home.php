@@ -138,7 +138,7 @@
             <!-- GUEST REVIEW END -->
 
             <!-- AREA INFORMATION -->
-            <div class="card h-auto bg-warning">
+            <div class="card h-75" style="background-color: #bacd92;">
                 <div class="card-body">
                     <h6>Area Information</h6>
                     <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
