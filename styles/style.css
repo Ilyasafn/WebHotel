@@ -4,10 +4,7 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #ddd;
 }
-
-
 
 * {
   margin: 0;
@@ -28,7 +25,7 @@ body {
 .ctr {
   width: 100%;
   height: 100px;
-  background-color: #bcb88a;
+  background-color: #bacd92;
 }
 
 .ctr img {
@@ -49,10 +46,12 @@ hr {
   height: 75.2vh;
 }
 
-
 footer h6 {
   font-family: "Kanit", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
 
+footer ul li {
+  list-style: none;
+}

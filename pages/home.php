@@ -49,7 +49,7 @@
                                 <input type="date" class="form-control" id="checkout">
                             </div>
                             <a href="#" >
-                                <button onclick="myBook()" class="btn btn-primary">BOOK!</button>
+                                <button style="background-color: #F5DAD2; color: #FCFFE0;" onclick="myBook()" class="btn">BOOK!</button>
                             </a>
                     </form>
                 </div>
