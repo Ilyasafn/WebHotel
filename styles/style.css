@@ -7,6 +7,8 @@ body {
   background-color: #ddd;
 }
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -45,5 +47,12 @@ hr {
 
 .carousel-inner img {
   height: 75.2vh;
+}
+
+
+footer h6 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
