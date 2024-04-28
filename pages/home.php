@@ -132,7 +132,7 @@
                     Guest Reviews
                 </div>
                 <div class="card-body">
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="?page=review">p</a>
                 </div>
             </div>
             <!-- GUEST REVIEW END -->

@@ -119,6 +119,10 @@
                 include 'pages/facilities.php';
                 break;
 
+            case 'review';
+                include 'pages/review.php';
+                break;
+
             default:
                 include 'pages/home.php';
                 break;
@@ -277,6 +281,11 @@
                 alert("Your Booking has been sent!");
                 document.location.href = "index.php";
             }
+        
+        function myReview() {
+            alert("Your Review has been sent!");
+            document.location.href = "index.php";
+        }
     </script>
     
   </body>
