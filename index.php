@@ -130,7 +130,6 @@
         <hr>
         <footer>
             <br>
-            <!-- <p class="text-center">©2024 copyright reserved.</p> -->
             <div class="row">
                 <!-- MAPS -->
                 <div class="col">
@@ -250,7 +249,11 @@
                 <!-- SOSMED END -->
 
             </div>
-    </footer>
+            <hr>
+            <div class="p-1">
+                <h6 class="text-center">© 2024 copyright reserved.</h6>
+            </div>
+        </footer>
     </div>
     
     
