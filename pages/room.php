@@ -9,14 +9,14 @@
     
 <body>
     <header class="tm-header">
-        <img class="tm-logo" src="images/Majestic_Hotel_hd.png" alt="Majestic Hotel">
+        <img class="tm-logo" src="assets/img/logoimg/leaf.png" alt="Majestic Hotel">
         <nav class="tm-nav">
        <div>
-            <ul>
+            <ul style="color: white;">
                 <li class="tm-list"><a href="?page=home">Home</a></li>
                 <li class="tm-list"><a href="?page=room">Rooms</a></li>
                 <li class="tm-list"><a href="?page=book">Booking</a></li>
-                <li><a href="?page=about">Contact</a></li>
+                <li class="tm-list"><a href="?page=about">Contact</a></li>
             </ul>    
             </div>
         </nav>
@@ -24,7 +24,7 @@
     
     
     <section class="tm-main">
-           <p>Rooms</p>
+           <p class="room">Rooms</p>
     </section>
     
     
@@ -37,7 +37,7 @@
                     
                             
                         <img class="tm-roomimage" src="assets/img/roomimg/extrasuperdeluxeluxuriousnyirororoom.jpg">
-                            <a href="?page=booking"><p class="nyiroro">Extra Super Deluxe Luxorious Nyi Roro Room</p></a>
+                            <p class="nyiroro">Extra Super Deluxe Luxorious Nyi Roro Room</p></a>
 
                     </div>
                         <div class="tm-room1">
@@ -115,8 +115,8 @@
         <div class="tm-address">
         <p class="bold">Address</p>
         <p>415, Park Avenu, Hawai
-            Phone : (211) 9275693451
-            Email : majestic@info.com</p>    
+            Phone : (+62)-831-2346-8942
+            Email : runfromback911@gmail.com</p>    
         </div>
         <br/>
     <div class="tm-media">

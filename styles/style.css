@@ -60,3 +60,39 @@ footer h6 {
 #sosmed li {
   list-style: none;
 }
+
+.tm-nav {
+  background-color: seagreen;
+  
+}
+
+.tm-list{
+  color: white;
+  padding: 5px 10px;
+  background-color: #EEEEEE;
+  border: 1px solid #DDDDDD;
+  
+}
+
+
+.tm-main{
+  text-align: center;
+  text-size-adjust: 100px;
+  background-color: seagreen ;
+}
+
+.room{
+  color: black;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: bold;
+}
+
+.tm-room1{
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #888888;
+  background-image: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+}

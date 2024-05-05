@@ -208,7 +208,7 @@
                                 <h6 class="text-center">Contact Us</h6>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">+62 123-666</li>
+                                <li class="list-group-item">+62 831-2346-8942</li>
                                 <li class="list-group-item">+62 0808 123-321</li>
                                 <li class="list-group-item">+62 888 321-123</li>
                             </ul>
