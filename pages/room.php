@@ -12,7 +12,7 @@
         <img class="tm-logo" src="assets/img/logoimg/leaf.png" alt="Majestic Hotel">
         <nav class="tm-nav">
        <div>
-            <ul style="color: white;">
+            <ul style="color: black;">
                 <li class="tm-list"><a href="?page=home">Home</a></li>
                 <li class="tm-list"><a href="?page=room">Rooms</a></li>
                 <li class="tm-list"><a href="?page=book">Booking</a></li>
@@ -37,7 +37,7 @@
                     
                             
                         <img class="tm-roomimage" src="assets/img/roomimg/extrasuperdeluxeluxuriousnyirororoom.jpg">
-                            <p class="nyiroro">Extra Super Deluxe Luxorious Nyi Roro Room</p></a>
+                            <p class="nyiroro"><bold>Extra Super Deluxe Luxorious Nyi Roro Room</bold></p></a>
 
                     </div>
                         <div class="tm-room1">
@@ -48,7 +48,7 @@
                         
                             
                         <img class="tm-roomimage" src="assets/img/roomimg/luxurious.jpeg">
-                             <p>Luxurious</p>
+                             <p><bold>Luxurious</bold></p>
 
                     </div>
     </section>
@@ -95,7 +95,7 @@
      <section class="tm-makeres">
     <div class="tm-res">
        <div class="tm-resbutton">
-           <p> <a href="pages/booking.php">Make Reservation</a></p>
+           <button type="button" class="tm-but" id="button"> Make Reservation</button>
         </div>
         </div>
     </section>
@@ -113,25 +113,25 @@
         </div>
        
         <div class="tm-address">
-        <p class="bold">Address</p>
-        <p>415, Park Avenu, Hawai
+        <p class="bold">Address: Balikpapan Tengah,Balikpapan,Kalimantan Timur</p>
+        <p>
+            <br>
             Phone : (+62)-831-2346-8942
+            <br>
             Email : runfromback911@gmail.com</p>    
-        </div>
-        <br/>
-    <div class="tm-media">
-        <a href="#"> <img src="images/fb.png"></a>
-        <a href="#"> <img src="images/G.png"> </a>
-        <a href="#"> <img src="images/twittr.png"> </a>
-        <a href="#">  <img src="images/insta.png"> </a>
-        
         </div>
 <!--        <a href="#">  <img class="tm-up" src="images/up.png"> </a>-->
     </footer>
     
 
-    
+    <script type="text/javascript">
+        document.getElementById("button").onclick = function () {
+            location.href = "?page=book";
+        };
+    </script> 
     </body>
+
+   
     
 </html>
     
