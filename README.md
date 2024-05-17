@@ -1,0 +1,1 @@
+Repository hasil kerja keras Ilyas Ryomen Al Furqon, Muhammad Ryuzo Rizal, dan Oswald Tempest Christo untuk memenuhi tugas UTS Mata Kuliah Algoritma & Pemrograman Dasar, Dosen Bpk. Iqbal Farhan Syuhada. 
